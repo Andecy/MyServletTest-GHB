@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<meta name="keywords" content="ico,ico图标,ico图标下载,ico制作,在线ico生成,在线ico生制作" />
+<title>在线生成ICO图标</title>
+	<link type="text/css" rel="stylesheet" href="style.css" /
+</head>
+<body>
+
+<div class="knr">
+			<div class="tit">在线生成ICO图标</div>
+			<div class="clear"></div>
+
+
+<form  method="post" enctype='multipart/form-data'>
+		<div class="nr">
+			选择图片：<input type="file" name="upimage" size="30">
+		</div>
+		<div class="nr">		
+		支持格式：png，jpg，gif
+		</div>
+		<div class="nr">
+			目标尺寸：
+			<input type="radio" name="size" value="1" id="s1"><label for="s1">16*16</label>
+			<input type="radio" name="size" value="2" id="s2" checked><label for="s2">32*32</label>
+			<input type="radio" name="size" value="3" id="s3"><label for="s3">48*48</label>
+		</div>
+		<div class="butt">
+			<INPUT onclick=lookme(this.form) type="submit" class="bun1" value="" name=button>
+		</div>
+</form>
+	  </div>		
+	
+    </div>
+  </div>
+  <div class="head3"></div>
+<script src="http://app.baidu.com/static/appstore/monitor.st"></script>
+    <script>
+        baidu.app.autoHeight();
+        baidu.app.setHeight(150);
+    </script>
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F3e2bb8173db2a649ff9c50ca3cffc47c' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+</body>
+</html>
+
+

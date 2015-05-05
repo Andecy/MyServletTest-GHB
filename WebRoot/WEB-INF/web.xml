@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>MyServletTest</display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserServ</servlet-name>
+    <servlet-class>com.andecy.myservlet.UserServ</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetRegisterServlet</servlet-name>
+    <servlet-class>com.andecy.myservlet.GetRegisterServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Json</servlet-name>
+    <servlet-class>com.andecy.myservlet.Json</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RegDatabase</servlet-name>
+    <servlet-class>com.andecy.myservlet.RegDatabase</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetForgottenServlet</servlet-name>
+    <servlet-class>com.andecy.myservlet.GetForgottenServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ForgottenDatabase</servlet-name>
+    <servlet-class>com.andecy.myservlet.ForgottenDatabase</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetLoginServlet</servlet-name>
+    <servlet-class>com.andecy.myservlet.GetLoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SearchServlet</servlet-name>
+    <servlet-class>com.andecy.myservlet.SearchServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>com.andecy.myservlet.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SignDatabase</servlet-name>
+    <servlet-class>com.andecy.myservlet.SignDatabase</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddServlet</servlet-name>
+    <servlet-class>com.andecy.myservlet.AddServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ListFriendServlet</servlet-name>
+    <servlet-class>com.andecy.myservlet.ListFriendServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetInitServlet</servlet-name>
+    <servlet-class>com.andecy.myservlet.GetInitServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetNewMsg</servlet-name>
+    <servlet-class>com.andecy.myservlet.GetNewMsg</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetChatMsg</servlet-name>
+    <servlet-class>com.andecy.myservlet.GetChatMsg</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SendChatMsg</servlet-name>
+    <servlet-class>com.andecy.myservlet.SendChatMsg</servlet-class>
+  </servlet>
+
+
+
+
+
+<error-page>
+    <error-code>404</error-code>
+    <location>/error_404.jsp</location>
+</error-page>
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>UserServ</servlet-name>
+    <url-pattern>/servlet/UserServ</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetRegisterServlet</servlet-name>
+    <url-pattern>/servlet/GetRegisterServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Json</servlet-name>
+    <url-pattern>/servlet/Json</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RegDatabase</servlet-name>
+    <url-pattern>/servlet/RegDatabase</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetForgottenServlet</servlet-name>
+    <url-pattern>/servlet/GetForgottenServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ForgottenDatabase</servlet-name>
+    <url-pattern>/servlet/ForgottenDatabase</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetLoginServlet</servlet-name>
+    <url-pattern>/servlet/GetLoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SearchServlet</servlet-name>
+    <url-pattern>/servlet/SearchServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/servlet/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SignDatabase</servlet-name>
+    <url-pattern>/servlet/SignDatabase</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddServlet</servlet-name>
+    <url-pattern>/servlet/AddServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ListFriendServlet</servlet-name>
+    <url-pattern>/servlet/ListFriendServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetInitServlet</servlet-name>
+    <url-pattern>/servlet/GetInitServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetNewMsg</servlet-name>
+    <url-pattern>/servlet/GetNewMsg</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetChatMsg</servlet-name>
+    <url-pattern>/servlet/GetChatMsg</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SendChatMsg</servlet-name>
+    <url-pattern>/servlet/SendChatMsg</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
